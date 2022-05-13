@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body hidden>
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">Mini Chat</a>
+            </div>
+        </nav>
+        <!-- Progress Bar -->
+        <div class="progress">
+            <div id="progressBar" class="determinate" style="width: 70%"></div>
+        </div>
+    </header>
+
+    <main>
+        <ul class="collection" id="messages-list">
+            
+            <!-- <li class="collection-item avatar">
+                <img src="https://ui-avatars.com/api/?name=pierre" alt="" class="circle">
+                <span class="title">User</span>
+                <p>Meessage Content</p>
+                <a href="#!" class="secondary-content"><i class="material-icons">close</i></a>
+            </li> -->
+        </ul>
+    </main>
+
+    <footer class="row padding">
+
+        <div class="col s2">
+            <select class="browser-default">
+                <option value="" disabled selected>User</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+            </select>
+        </div>
+
+        <div class="col s8">
+            <div class="input-field">
+                <input id="contentMessage" type="text" class="validate">
+                <label for="contentMessage">Text</label>
+            </div>
+        </div>
+
+        <div class="col s1" style="padding:20px">
+            <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">send</i></a>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Pierre"
+    },
+    {
+      "id": 2,
+      "name": "Michaël"
+    },
+    {
+      "id": 3,
+      "name": "Renaud"
+    },
+    {
+      "id": 4,
+      "name": "Bob"
+    }
+  ],
+  "messages": [
+    {
+      "id": 3,
+      "userId": 3,
+      "content": "Oui Michaël ca fonctionne"
+    },
+    {
+      "userId": "3",
+      "content": "Message de test",
+      "id": 4
+    },
+    {
+      "content": "Bonjour Test ",
+      "userId": "1",
+      "id": 6
+    },
+    {
+      "content": "merci",
+      "userId": "2",
+      "id": 7
+    },
+    {
+      "content": "parfait",
+      "userId": "2",
+      "id": 8
+    },
+    {
+      "userId": "3",
+      "content": "Merci Pierre et Michaël !",
+      "id": 10
+    },
+    {
+      "content": "Super Micha ! Félicitations pour la progessBar :) ",
+      "userId": "1",
+      "id": 11
+    }
+  ]
+}

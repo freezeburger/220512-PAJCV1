@@ -1,0 +1,24 @@
+main,header,footer{
+    display: block;
+}
+
+header,footer{
+    height:10vh;
+}
+
+main{
+    height:80vh;
+    border-bottom:2px gray solid;
+    overflow: hidden;
+    overflow-y:scroll;
+}
+
+main::-webkit-scrollbar {
+    display: none;
+}
+
+/* footer{
+    padding:10px;
+    display:flex;
+    flex-direction: row;
+} */
